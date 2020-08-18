@@ -1,0 +1,134 @@
+Request method:	POST
+Request URI:	http://dummy.restapiexample.com/api/v1/create
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Tiger Nixon",
+    "salary": 10000,
+    "age": 25
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, private, max-age=31536000
+Content-Type: application/json
+Date: Tue, 18 Aug 2020 09:28:08 GMT
+Display: staticcontent_sol
+Expires: Wed, 18 Aug 2021 09:28:07 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Referrer-Policy: 
+Response: 200
+Server: nginx/1.16.0
+Vary: Accept-Encoding
+Vary: Accept-Encoding,Origin
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 200
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 59
+X-Sol: pub_site
+Content-Length: 133
+
+{
+    "status": "success",
+    "data": {
+        "name": "Tiger Nixon",
+        "salary": 10000,
+        "age": 25,
+        "id": 7096
+    },
+    "message": "Successfully! Record has been added."
+}
+Request method:	GET
+Request URI:	http://dummy.restapiexample.com/api/v1/employee/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, private, max-age=31536000
+Content-Type: application/json
+Date: Tue, 18 Aug 2020 09:28:10 GMT
+Display: staticcontent_sol
+Expires: Wed, 18 Aug 2021 09:28:09 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Referrer-Policy: 
+Response: 200
+Server: nginx/1.16.0
+Vary: Accept-Encoding
+Vary: Accept-Encoding,User-Agent,Origin
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 200
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Sol: pub_site
+Content-Length: 179
+
+{
+    "status": "success",
+    "data": {
+        "id": 1,
+        "employee_name": "Tiger Nixon",
+        "employee_salary": 320800,
+        "employee_age": 61,
+        "profile_image": ""
+    },
+    "message": "Successfully! Record has been fetched."
+}
+Request method:	PUT
+Request URI:	http://dummy.restapiexample.com/api/v1/update/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "xyz",
+    "age": 26
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, private, max-age=31536000
+Content-Type: application/json
+Date: Tue, 18 Aug 2020 09:28:11 GMT
+Display: staticcontent_sol
+Expires: Wed, 18 Aug 2021 09:28:10 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Referrer-Policy: 
+Response: 200
+Server: nginx/1.16.0
+Vary: Accept-Encoding
+Vary: Accept-Encoding,Origin
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 200
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 59
+X-Sol: pub_site
+Content-Length: 102
+
+{
+    "status": "success",
+    "data": {
+        "name": "xyz",
+        "age": 26
+    },
+    "message": "Successfully! Record has been updated."
+}
